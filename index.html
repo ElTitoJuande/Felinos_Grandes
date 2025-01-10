@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FelinosGrandes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">The Felinos Project</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Popular
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Tigre</a></li>
+                            <li><a class="dropdown-item" href="#">Leon</a></li>
+                            <li><a class="dropdown-item" href="#">Jaguar</a></li>
+                            <li><a class="dropdown-item" href="#">Puma</a></li>
+                            <li><a class="dropdown-item" href="#">Pantera</a></li>
+                            <li><a class="dropdown-item" href="#">Leopardo</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Sólo vengo a por gatitos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Equipo</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Gatinder" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section class="text-center hero-section">
+        <h1>"Grandes Felinos : La belleza del reino animal"</h1>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="870" height="499" src="https://www.youtube.com/embed/hDmc2vDHLS4?autoplay=1"
+                title="Grandes Felinos - Zoológico de Santillana del Mar" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </section>
+    <section id="cards">
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <div class="col m-4">
+                    <div class="card">
+                        <img src="img/leon_mirando_a_camara.jpg" class="card-img-top" alt="Foto del León">
+                        <div class="card-body">
+                            <h5 class="card-title">León</h5>
+                            <p class="card-text">Felino solitario que habita principalmente en Europa y Asia. Es un
+                                depredador apex, con una mordida increíblemente poderosa que le permite cazar presas
+                                grandes.</p>
+                            <a href="#" class="btn btn-primary">Conocer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m-4">
+                    <div class="card">
+                        <img src="img/leon_mirando_a_camara.jpg" class="card-img-top" alt="Tigre en su hábitat">
+                        <div class="card-body">
+                            <h5 class="card-title">Tigre</h5>
+                            <p class="card-text">Felino solitario que habita exclusivamente en Asia. Puede pesar entre
+                                100 y 300 kilos, mide de 1 a 3 metros, y es capaz de saltar hasta 5 metros de altura.
+                                Vive aproximadamente 15 años y está en peligro de extinción.</p>
+                            <a href="#" class="btn btn-primary">Conocer más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col m-4">
+                    <div class="card">
+                        <img src="img/leon_mirando_a_camara.jpg" class="card-img-top" alt="Jaguar en la selva">
+                        <div class="card-body">
+                            <h5 class="card-title">Jaguar</h5>
+                            <p class="card-text">Felino americano conocido por su fuerza y agilidad. Habita
+                                principalmente en las selvas tropicales de Centro y Sudamérica. Es un depredador apex
+                                con una mordida increíblemente poderosa que le permite cazar presas grandes.</p>
+                            <a href="#" class="btn btn-primary">Conocer más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
