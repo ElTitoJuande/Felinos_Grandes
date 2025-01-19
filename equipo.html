@@ -71,14 +71,14 @@
                         obra visualmente impactante y científicamente precisa, que no solo muestra la belleza de
                         estos
                         felinos, sino que también sensibiliza sobre la importancia de su conservación.
-                        
+
                     </p>
                 </div>
             </div>
         </section>
 
         <section id="equipoIntegrantes">
-            <div class="container">
+            <div class="container my-5">
                 <div class="accordion" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header">
@@ -231,48 +231,55 @@
             </div>
         </section>
 
-        <section id="equipoLugares">
-            <div id="puma3" class="border-top border-2">
-                <div class="puma_mapa"></div>
+        <section>
+            <div id="equipoLugares" class="border-top border-2 text-center">
                 <div class="wrapper">
-                    <h2>Distribución en América</h2>
-                    <h2 class="text-success mb-4">De Canadá a la Patagonia</h2>
-                    <p class="fs-5 text-body">El puma habita en la mayor parte del continente americano, prefiriendo
-                        áreas
-                        montañosas y boscosas, aunque también puede sobrevivir en zonas áridas.</p>
-                    <article class="d-flex" id="puma_mapa_info">
-                        <div>
-                            <p class="text-success fs-5">Norteamérica</p>
-                            <p>Regiones de Canadá, Estados Unidos y México.</p>
+                    <h2>Locaciones de Grabación</h2>
+                    <h2 class="text-success mb-4">De África a Asia y América</h2>
+                    <p class="fs-5 text-body">El equipo de investigación ha explorado algunos de los ecosistemas más
+                        impresionantes del mundo, documentando a los grandes felinos en su entorno natural. Cada
+                        locación fue elegida por su rica biodiversidad y su importancia para la conservación de
+                        estas especies.</p>
+                    <article class="d-flex flex-wrap" id="equipoMapa_info">
+                        <div class="col-lg-6 col-md-12">
+                            <p class="text-success fs-5">Serengeti, Tanzania</p>
+                            <p>Uno de los ecosistemas más emblemáticos de África, hogar de leones, leopardos y
+                                guepardos.</p>
                         </div>
-                        <div>
-                            <p class="text-success fs-5">Sudamérica</p>
-                            <p>Desde los Andes hasta el extremo sur en Chile y Argentina.</p>
+                        <div class="col-lg-6 col-md-12">
+                            <p class="text-success fs-5">Parque Nacional Torres del Paine, Chile</p>
+                            <p>Ubicado en la Patagonia, es un refugio natural para los pumas sudamericanos.</p>
                         </div>
-                        <div>
-                            <p class="text-success fs-5">Centroamérica</p>
-                            <p>Honduras, Nicaragua y otros países de la región.</p>
+                        <div class="col-lg-6 col-md-12">
+                            <p class="text-success fs-5">Pantanal, Brasil</p>
+                            <p>El humedal más grande del mundo, conocido por su población de jaguares.</p>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <p class="text-success fs-5">Sundarbans, India y Bangladés</p>
+                            <p>El mayor bosque de manglares del mundo, hogar del esquivo tigre de Bengala.</p>
                         </div>
                     </article>
                 </div>
             </div>
-            <div class="container">
-
-                <ul>
-                    <li>Serengeti, Tanzania (África)</li>
-                    <li>Parque Nacional Torres del Paine, Chile (América del Sur) </li>
-                    <li>Pantanal, Brasil (América del Sur) </li>
-                    <li>Sundarbans, India y Bangladés (Asia) </li>
-                </ul>
-            </div>
         </section>
         <section id="equipoForm">
             <div class="container">
-                <form action="">
-                    <label for="">¿Quieres formar parte de nuestro equipo?</label>
-                    <button>Enviar</button>
-
-                </form>
+                <form class="my-5">
+                    <h2>¿Quieres colaborar con nuestro equipo?</h2>
+                    <div class="mb-3">
+                      <label for="InputEmail" class="form-label">Correo electrónico</label>
+                      <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="info@ejemplo.com">
+                    </div>
+                    <div class="mb-3">
+                      <label for="InputPassword" class="form-label">Password</label>
+                      <input type="password" class="form-control" id="InputPassword" placeholder="*******">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="check">
+                      <label class="form-check-label" for="check">Recuérdame</label>
+                    </div>
+                    <button type="submit" class="btn btn-warning">Enviar</button>
+                  </form>
             </div>
         </section>
 
