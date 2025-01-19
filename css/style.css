@@ -14,6 +14,24 @@ body {
     min-height: 150vh;
 }
 
+#inicioCards {
+    h1 {
+        text-align: center;
+        margin: 20px 0 50px 0;
+        font-size: 3rem; 
+        color: #ff8c00; 
+        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6); 
+        border: 3px solid #ff8c00; 
+        padding: 10px 20px; 
+        border-radius: 15px; 
+        background-color: rgba(255, 140, 0, 0.1); 
+    }
+    
+    .card img {
+        max-height: 220px;
+    }
+}
+
 #bodyPuma {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/fondo_puma.jpg);
     background-size: cover;
@@ -32,21 +50,21 @@ body {
 
 #hero-section {
     background-color: #ffffff41;
-    border-top: solid 5px rgba(0, 0, 0, 1);
-    margin: 10px;
-    padding: 10px;
+    border-top: solid 5px #ff8c00;
+    margin: 50px;
+    padding: 50px;
     border-radius: 10px;
 
     h1 {
-        color: black;
+        color: #ff8c00;
         text-align: center;
         margin: 0;
         font-size: 4rem;
         font-weight: 600;
         margin: 20px 0 50px 0;
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        text-shadow: 3px 3px 8px rgba(0, 0, 0, 1); 
     }
-    
+
     h2 {
         color: black;
         text-align: center;
@@ -54,10 +72,10 @@ body {
         font-size: 2.5rem;
         font-weight: 600;
         margin: 20px 0 50px 0;
-        text-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
-        
+        text-shadow: 0 0 25px rgba(255, 255, 255, 0.7);
+
     }
-    
+
     p {
         font-size: 1.25rem;
         margin: 20px 0 50px 0;
@@ -69,11 +87,6 @@ body {
     max-height: 39rem;
     object-fit: contain;
 }
-
-
-
-
-
 
 #bodyEquipo {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/fondo_equipo.jpg);
@@ -102,11 +115,12 @@ body {
     /* padding-bottom: 300px; */
     display: flex;
     justify-content: center;
-    color: black;
-    text-shadow: 2px 2px 5px rgb(255, 255, 255);
-    
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+
     .wrapper {
         background-color: rgb(63, 63, 63, 0.8);
+        color: white;
         border-radius: 20px;
         /* width: 50%;*/
         margin: 100px;
