@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Gill Sans MT';
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/camuflaje_fondo.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/gato_leon.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -18,18 +18,61 @@ body {
     h1 {
         text-align: center;
         margin: 20px 0 50px 0;
-        font-size: 3rem; 
-        color: #ff8c00; 
-        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6); 
-        border: 3px solid #ff8c00; 
-        padding: 10px 20px; 
-        border-radius: 15px; 
-        background-color: rgba(255, 140, 0, 0.1); 
+        font-size: 3rem;
+        color: #ff8c00;
+        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
+        border: 3px solid #ff8c00;
+        padding: 10px 20px;
+        border-radius: 15px;
+        background-color: rgba(255, 140, 0, 0.1);
     }
-    
+
     .card img {
         max-height: 220px;
     }
+}
+
+#newsletter {
+    background-color: #ff8c00b7;
+    margin-bottom: 50px;
+
+    h2 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin: 0;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin: 20px 0 0px 0;
+        padding:20px 0 10px 0;
+        text-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+    }    
+    hr{
+        color: white;
+        width: 50%;
+        
+    }
+    p {
+        color: white;
+        width: 60%;
+        font-size: 1.5rem;
+        /* margin: 0px 50px 20px 0px; */
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+    .btn-apuntate{
+        width: 25%;
+        background-color: white;
+        margin: 0px 50px 30px 50px;
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+#bodyLeon {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/camuflaje_fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #f3f3f3;
+    min-height: 150vh;
 }
 
 #bodyPuma {
@@ -62,7 +105,7 @@ body {
         font-size: 4rem;
         font-weight: 600;
         margin: 20px 0 50px 0;
-        text-shadow: 3px 3px 8px rgba(0, 0, 0, 1); 
+        text-shadow: 3px 3px 8px rgba(0, 0, 0, 1);
     }
 
     h2 {
@@ -149,7 +192,38 @@ body {
     }
 }
 
+@media (max-width: 576px) {
+    #hero-section{
+        h1{
+            font-size: 1.5rem !important;
+        }
+        iframe{
+            width: 100%;
+            height: 200px;
+        }
+    }
+    .puma-wrap {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
 @media (max-width: 768px) {
+
+    body {
+        .card {
+            max-height: auto;
+        }
+    }
+    #hero-section{
+        h1{
+            font-size: 3rem;
+        }
+        iframe{
+            width: 100%;
+            height: 400px;
+        }
+    }
 
     #introPuma,
     #puma2 {
@@ -164,18 +238,33 @@ body {
         width: 100% !important;
         text-align: center;
     }
-
-    /* .puma-wrap {} */
 }
 
-@media (max-width: 576px) {
-    .puma-wrap {
-        flex-wrap: wrap;
-        justify-content: center !important;
+@media (min-width: 1200px) {
+    body {
+        .card {
+            min-height: 520px;
+        }
     }
+    
 }
 
 @media (max-width: 1200px) {
+    body {
+        .card {
+            min-height: auto;
+        }
+    }
+    #hero-section{
+        h1{
+            font-size: 3rem;
+        }
+        iframe{
+            width: 100%;
+            height: 500px;
+        }
+    }
+
     #puma3 {
         flex-wrap: wrap;
         padding-top: 30px;
