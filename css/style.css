@@ -21,10 +21,16 @@ body {
         font-size: 3rem;
         color: #ff8c00;
         text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
-        border: 3px solid #ff8c00;
-        padding: 10px 20px;
+        /* border: 3px solid #ff8c00; */
+        padding: 10px 10px;
         border-radius: 15px;
         background-color: rgba(255, 140, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    h1:hover {
+        transform: scale(1.1); 
+        box-shadow: 0 0 15px rgba(255, 140, 0, 0.7); /* Resplandor alrededor */
+        background-color: rgba(255, 140, 0, 0.2); /* Fondo un poco más intenso */
     }
 
     .card img {
@@ -73,6 +79,50 @@ body {
     background-attachment: fixed;
     background-color: #f3f3f3;
     min-height: 150vh;
+}
+
+#leonGaleria{
+    h1 {
+        text-align: center;
+        margin: 20px 0 50px 0;
+        font-size: 3rem;
+        color: #ff8c00;
+        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
+        /* border: 3px solid #ff8c00; */
+        padding: 10px 10px;
+        border-radius: 15px;
+        background-color: rgba(255, 140, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    h1:hover {
+        transform: scale(1.1); 
+        box-shadow: 0 0 15px rgba(255, 140, 0, 0.7); /* Resplandor alrededor */
+        background-color: rgba(255, 140, 0, 0.2); /* Fondo un poco más intenso */
+    }
+}
+
+#leonTipos{
+    h1 {
+        text-align: center;
+        margin: 20px 0 50px 0;
+        font-size: 3rem;
+        color: #ff8c00;
+        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
+        /* border: 3px solid #ff8c00; */
+        padding: 10px 10px;
+        border-radius: 15px;
+        background-color: rgba(255, 140, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    h1:hover {
+        transform: scale(1.1); 
+        box-shadow: 0 0 15px rgba(255, 140, 0, 0.7); /* Resplandor alrededor */
+        background-color: rgba(255, 140, 0, 0.2); /* Fondo un poco más intenso */
+    }
+    .card img {
+        min-height: 33vh;
+
+    }
 }
 
 #bodyPuma {
