@@ -14,133 +14,7 @@ body {
     min-height: 150vh;
 }
 
-#inicioCards {
-    h1 {
-        text-align: center;
-        margin: 20px 0 50px 0;
-        font-size: 3rem;
-        color: #ff8c00;
-        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
-        /* border: 3px solid #ff8c00; */
-        padding: 10px 10px;
-        border-radius: 15px;
-        background-color: rgba(255, 140, 0, 0.1);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    h1:hover {
-        transform: scale(1.1); 
-        box-shadow: 0 0 15px rgba(255, 140, 0, 0.7); /* Resplandor alrededor */
-        background-color: rgba(255, 140, 0, 0.2); /* Fondo un poco más intenso */
-    }
-
-    .card img {
-        max-height: 220px;
-    }
-}
-
-#newsletter {
-    background-color: #ff8c00b7;
-    margin-bottom: 50px;
-
-    h2 {
-        color: rgb(255, 255, 255);
-        text-align: center;
-        margin: 0;
-        font-size: 2.5rem;
-        font-weight: 600;
-        margin: 20px 0 0px 0;
-        padding:20px 0 10px 0;
-        text-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
-    }    
-    hr{
-        color: white;
-        width: 50%;
-        
-    }
-    p {
-        color: white;
-        width: 60%;
-        font-size: 1.5rem;
-        /* margin: 0px 50px 20px 0px; */
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    }
-    .btn-apuntate{
-        width: 25%;
-        background-color: white;
-        margin: 0px 50px 30px 50px;
-        padding: 10px 10px 10px 10px;
-    }
-}
-
-#bodyLeon {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/camuflaje_fondo.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-color: #f3f3f3;
-    min-height: 150vh;
-}
-
-#leonGaleria{
-    h1 {
-        text-align: center;
-        margin: 20px 0 50px 0;
-        font-size: 3rem;
-        color: #ff8c00;
-        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
-        /* border: 3px solid #ff8c00; */
-        padding: 10px 10px;
-        border-radius: 15px;
-        background-color: rgba(255, 140, 0, 0.1);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    h1:hover {
-        transform: scale(1.1); 
-        box-shadow: 0 0 15px rgba(255, 140, 0, 0.7); /* Resplandor alrededor */
-        background-color: rgba(255, 140, 0, 0.2); /* Fondo un poco más intenso */
-    }
-}
-
-#leonTipos{
-    h1 {
-        text-align: center;
-        margin: 20px 0 50px 0;
-        font-size: 3rem;
-        color: #ff8c00;
-        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
-        /* border: 3px solid #ff8c00; */
-        padding: 10px 10px;
-        border-radius: 15px;
-        background-color: rgba(255, 140, 0, 0.1);
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    h1:hover {
-        transform: scale(1.1); 
-        box-shadow: 0 0 15px rgba(255, 140, 0, 0.7); /* Resplandor alrededor */
-        background-color: rgba(255, 140, 0, 0.2); /* Fondo un poco más intenso */
-    }
-    .card img {
-        min-height: 33vh;
-
-    }
-}
-
-#bodyPuma {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/fondo_puma.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: #f3f3f3;
-}
-
-#bodyTigre {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/fondo_puma.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    color: #f3f3f3;
-}
-
+/* GENERAL */
 #hero-section {
     background-color: #ffffff41;
     border-top: solid 5px #ff8c00;
@@ -174,6 +48,148 @@ body {
         margin: 20px 0 50px 0;
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     }
+
+    span {
+        color: #ff8c00;
+        font-weight: bold;
+    }
+}
+
+#inicioCards {
+    h1 {
+        text-align: center;
+        margin: 20px 0 50px 0;
+        font-size: 3rem;
+        color: #ff8c00;
+        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
+        /* border: 3px solid #ff8c00; */
+        padding: 10px 10px;
+        border-radius: 15px;
+        background-color: rgba(255, 140, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    h1:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 15px rgba(255, 140, 0, 0.7);
+        background-color: rgba(255, 140, 0, 0.2);
+    }
+
+    .card img {
+        max-height: 220px;
+    }
+}
+
+#newsletter {
+    background-color: #ff8c00b7;
+    margin-bottom: 50px;
+
+    h2 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin: 0;
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin: 20px 0 0px 0;
+        padding: 20px 0 10px 0;
+        text-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+    }
+
+    hr {
+        color: white;
+        width: 50%;
+
+    }
+
+    p {
+        color: white;
+        width: 60%;
+        font-size: 1.5rem;
+        /* margin: 0px 50px 20px 0px; */
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    .btn-apuntate {
+        width: 25%;
+        background-color: white;
+        margin: 0px 50px 30px 50px;
+        padding: 10px 10px 10px 10px;
+    }
+}
+
+/* LEON */
+#bodyLeon {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/camuflaje_fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 150vh;
+}
+
+#leonGaleria {
+    h1 {
+        text-align: center;
+        margin: 20px 0 50px 0;
+        font-size: 3rem;
+        color: #ff8c00;
+        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
+        border: 1px solid #ff8c00;
+        padding: 10px 10px;
+        border-radius: 15px;
+        background-color: rgba(255, 140, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    h1:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 15px rgba(255, 140, 0, 0.7);
+        background-color: rgba(255, 140, 0, 0.2);
+    }
+}
+
+#leonTipos {
+    h1 {
+        text-align: center;
+        margin: 20px 0 50px 0;
+        font-size: 3rem;
+        color: #ff8c00;
+        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
+        border: 1px solid #ff8c00;
+        padding: 10px 10px;
+        border-radius: 15px;
+        background-color: rgba(255, 140, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    h1:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 15px rgba(255, 140, 0, 0.7);
+        /* Resplandor alrededor */
+        background-color: rgba(255, 140, 0, 0.2);
+        /* Fondo un poco más intenso */
+    }
+
+    .card img {
+        min-height: 33vh;
+
+    }
+}
+
+/* PUMA */
+#bodyPuma {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)), url(../img/fondo_puma.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #f3f3f3;
+
+    p {
+        font-weight: bold;
+    }
+
+    /* section {
+        background-color:rgb(0, 0, 0,0.5);
+    } */
 }
 
 .carousel-inner img {
@@ -181,6 +197,38 @@ body {
     object-fit: contain;
 }
 
+/* TIGRE */
+#bodyTigre {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/tigre-camuflado-hojas_731790-89512.avif);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #f3f3f3;
+}
+
+#tigreGaleria,
+#tigreTipos {
+    h1 {
+        text-align: center;
+        margin: 20px 0 50px 0;
+        font-size: 3rem;
+        color: #ff8c00;
+        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6);
+        border: 1px solid #ff8c00;
+        padding: 10px 10px;
+        border-radius: 15px;
+        background-color: rgba(255, 140, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    h1:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 15px rgba(255, 140, 0, 0.7);
+        background-color: rgba(255, 140, 0, 0.2);
+    }
+}
+
+/* EQUIPO */
 #bodyEquipo {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../img/fondo_equipo.jpg);
     background-size: cover;
@@ -199,9 +247,7 @@ body {
     background-color: #995e15;
 }
 
-
 #equipoLugares {
-    /* background: #f3f3f3; */
     background: url(../img/equipoLugares_fondo-removebg-preview.jpg);
     background-size: cover;
     background-position: center;
@@ -215,7 +261,7 @@ body {
         background-color: rgb(63, 63, 63, 0.8);
         color: white;
         border-radius: 20px;
-        /* width: 50%;*/
+        /* width: 50%; */
         margin: 100px;
         padding: 20px;
     }
@@ -224,34 +270,36 @@ body {
         padding: 20px;
     }
 
-    #equipoMapa_info div:not(:last-child) {
-        border-right: 2px solid #3f3f3f;
-    }
+    /* #equipoMapa_info div:not(:last-child) {
+        border-right: 2px solid #3f3f3f; 
+    } */
 
-    #equipoMapa_info div:not(:first-child) {
+    /* #equipoMapa_info div:not(:first-child) {
         padding-left: 20px;
-    }
+    } */
 
-    #equipoMapa_info p {
+    /* #equipoMapa_info p {
         margin-top: 0;
-    }
+    } */
 
-    .equipo_mapa {
+    /* .equipo_mapa {
         width: 100%;
         height: 400px;
-    }
+    } */
 }
 
 @media (max-width: 576px) {
-    #hero-section{
-        h1{
+    #hero-section {
+        h1 {
             font-size: 1.5rem !important;
         }
-        iframe{
+
+        iframe {
             width: 100%;
             height: 200px;
         }
     }
+
     .puma-wrap {
         flex-wrap: wrap;
         justify-content: center !important;
@@ -265,14 +313,20 @@ body {
             max-height: auto;
         }
     }
-    #hero-section{
-        h1{
+
+    #hero-section {
+        h1 {
             font-size: 3rem;
         }
-        iframe{
+
+        iframe {
             width: 100%;
             height: 400px;
         }
+    }
+
+    #mirada img {
+        min-width: 300px;
     }
 
     #introPuma,
@@ -296,7 +350,7 @@ body {
             min-height: 520px;
         }
     }
-    
+
 }
 
 @media (max-width: 1200px) {
@@ -305,11 +359,13 @@ body {
             min-height: auto;
         }
     }
-    #hero-section{
-        h1{
+
+    #hero-section {
+        h1 {
             font-size: 3rem;
         }
-        iframe{
+
+        iframe {
             width: 100%;
             height: 500px;
         }

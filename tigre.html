@@ -9,6 +9,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
 </head>
 
 <body id="bodyTigre">
@@ -32,13 +33,9 @@
                                 Popular
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="./leon.html">León</a></li>
                                 <li><a class="dropdown-item" href="./tigre.html">Tigre</a></li>
+                                <li><a class="dropdown-item" href="./leon.html">León</a></li>
                                 <li><a class="dropdown-item" href="./puma.html">Puma</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="gatitos.html">Sólo vengo a por gatitos</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -55,78 +52,107 @@
 
     </header>
     <main>
-        <div id="carouselExampleInterval" class="carousel slide m-3" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="9000">
-                    <img src="img/tigre.jpg" class="d-block w-100" alt="slide1">
+        <section id="hero-section">
+            <div class="container text-center">
+                <div id="mirada">
+                    <img src="img/tigre.jpg" class="img-fluid" alt="Mirada de un tigre">
                 </div>
-                <div class="carousel-item" data-bs-interval="9000">
-                    <img src="img/tigre4.jpeg" class="d-block w-100" alt="slide2">
-                </div>
-                <div class="carousel-item" data-bs-interval="9000">
-                    <img src="img/tigre3.jpeg" class="d-block w-100" alt="slide3">
+                <div id="tigre_descripcion" class="text-center m-5">
+                    <h1>El maestro de la selva...</h1>
+                    <p class="fst-italic">
+                        <span>Imponente</span>, ágil y fascinante, el tigre (<em>Panthera tigris</em>) es el mayor de
+                        los grandes felinos y
+                        <span>uno de los depredadores más icónicos</span>. Conocido por sus llamativas rayas y su
+                        <span>habilidad para cazar en solitario</span>, el tigre es un símbolo de fuerza y misticismo en
+                        muchas culturas del mundo.
+                        <br><br>
+                        En nuestro documental, exploraremos su comportamiento, su rol en el ecosistema y los desafíos
+                        que enfrenta para sobrevivir en la naturaleza.
+                        <span>Acompáñanos a descubrir la vida del tigre</span> en su hábitat natural y a entender por
+                        qué es crucial
+                        <span>proteger a este magnífico felino</span>.
+                    </p>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Anterior</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Siguiente</span>
-            </button>
-        </div>
-
-        <section class="w-50 mx-auto text-center pt-5" id="introTigre">
-            <h1 class="p-3 fs-2 border-top border-3">El Tigre: El rey de la selva asiática</h1>
-            <p class="p-3 fs-4"><span class="text-success">El tigre</span>, el mayor de los felinos, es una de las criaturas más emblemáticas y poderosas del mundo animal. Habita principalmente en Asia, desde la India hasta Siberia.</p>
         </section>
+        <section id="tigreTipos">
+            <div class="container">
+                <h1>Subespecies de tigre</h1>
+                <div class="row text-center justify-content-center">
+                    <div class="col m-4">
+                        <div class="card">
+                            <img src="img/tigre_bengala.jpg" class="card-img-top" alt="Bengala">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Tigre de Bengala</h5>
+                                <p class="card-text">El tigre de Bengala (<em>Panthera tigris tigris</em>) es la
+                                    subespecie más numerosa, habitando principalmente en India, pero también en
+                                    Bangladés, Nepal y Bután. Este majestuoso felino es conocido por su pelaje
+                                    anaranjado brillante con rayas negras distintivas, lo que le permite camuflarse en
+                                    su entorno. </p>
 
-        <section class="container-fluid">
-            <div class="row w-75 mx-auto tigre-fila">
-                <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 tigre-wrap">
-                    <div>
-                        <h3 class="fs-5 mt-4 px-4 pb-1">Distribución geográfica</h3>
-                        <p class="px-4">El tigre se encuentra en varias regiones de Asia, principalmente en bosques y áreas montañosas, desde el sudeste asiático hasta el noreste de Rusia.</p>
+                            </div>
+                        </div>
                     </div>
-                    <img src="img/tigre_mapa.jpg" alt="Foto de tigre" width="180" height="160">
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 tigre-wrap">
-                    <div>
-                        <h3 class="fs-5 mt-4 px-4 pb-1">Características físicas</h3>
-                        <p class="px-4">Los tigres tienen un cuerpo musculoso, con una piel rayada que los camufla perfectamente en su entorno natural. Son conocidos por sus grandes colmillos y garras.</p>
+                    <div class="col m-4">
+                        <div class="card">
+                            <img src="img/tigre_siberiano.jpg" class="card-img-top" alt="Tigre en su hábitat">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Tigre Siberiano</h5>
+                                <p class="card-text">El tigre siberiano (Panthera tigris altaica), también conocido como
+                                    tigre de Amur, es la
+                                    subespecie más grande y habita en las regiones frías del Lejano Oriente ruso. Su
+                                    denso
+                                    pelaje le permite sobrevivir en climas extremos.</p>
+                            </div>
+                        </div>
                     </div>
-                    <img src="img/cara_tigre.jpg" alt="Foto de tigre" width="180" height="160">
-                </div>
-            </div>
-            <div class="row w-75 mx-auto tigre-fila">
-                <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 tigre-wrap">
-                    <img src="img/cazando_tigre.jpeg" alt="Foto de tigre" width="180" height="160">
-                    <div>
-                        <div>
-                            <h3 class="fs-5 mt-4 px-4 pb-1">Habilidades de caza</h3>
-                            <p class="px-4">Los tigres son depredadores solitarios que acechan y emboscan a sus presas, utilizando su fuerza y agilidad para cazarlas.</p>
+                    <div class="col m-4">
+                        <div class="card">
+                            <img src="img/tigre_sumatra.jpg" class="card-img-top" alt="Jaguar en la selva">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold">Tigre de Sumatra</h5>
+                                <p class="card-text">El tigre de Sumatra (<em>Panthera tigris sumatrae</em>) es una
+                                    subespecie en peligro crítico que habita exclusivamente en la isla de Sumatra,
+                                    Indonesia. Es el más pequeño de los tigres, conocido por su pelaje oscuro, rayas
+                                    densas y una melena más pronunciada en los machos. Este felino se adapta a una gran
+                                    variedad de hábitats, desde bosques tropicales hasta pantanos. </p>
+
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 tigre-wrap">
-                    <img src="img/tigre_conservacion.jpeg" alt="Foto de tigre" width="180" height="160">
-                    <div>
-                        <h3 class="fs-5 mt-4 px-4 pb-1">Conservación</h3>
-                        <p class="px-4">A pesar de ser una especie icónica, los tigres están en peligro de extinción debido a la caza furtiva y la destrucción de su hábitat.</p>
-                    </div>
-                </div>
             </div>
         </section>
-        <section>
-            <div class="w-50 m-auto text-center" id="tigre2">
-                <h1 class="p-3 fs-2 border-top border-3">Adaptaciones impresionantes del <span class="text-success">tigre</span></h1>
-                <p class="fs-4">El tigre es conocido por su impresionante fuerza y velocidad. Puede alcanzar hasta 60 km/h en distancias cortas, lo que lo convierte en un cazador formidable.</p>
-            </div>
-            <div class="mt-5 mb-5 text-center">
-                <img class="img-fluid w-75" src="img/adaptabilidad_tigre.jpg" alt="Foto">
+
+        <section id="tigreGaleria" class="container">
+            <h1>Rayas de Poder: El Arte de la Naturaleza</h1>
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <img src="./img/tigre_andando_izq.jpeg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Tigre de cerca" />
+
+                    <img src="./img/tigre_cara.jpg" class="h-25 w-100 shadow-1-strong rounded mb-4"
+                        alt="Rugido de tigre" />
+
+                    <img src="./img/tigre_monje.jpg" class="h-25 w-100 shadow-1-strong rounded mb-4"
+                        alt="Tigre corriendo" />
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="./img/tigre_de_frente.jpg" class="h-50 w-100 shadow-1-strong rounded mb-4"
+                        alt="Cachorros de tigre" />
+                    <img src="./img/tigre_blanco.jpg" class="h-25 w-100 shadow-1-strong rounded mb-4"
+                        alt="Pareja de tigres" />
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="./img/tigre_colmillos.jpg" class="h-25 w-100 shadow-1-strong rounded mb-4"
+                        alt="Tigre mirando" />
+                    <img src="./img/tigre_marron.jpg" class="w-100 shadow-1-strong rounded mb-4"
+                        alt="Tigre solitario" />
+
+                    <img src="./img/tigre_tumbado.jpg" class="h-25 w-100 shadow-1-strong rounded mb-4"
+                        alt="Pareja de tigres" />
+
+                </div>
             </div>
         </section>
     </main>
@@ -171,7 +197,7 @@
                     </div>
                     <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                         <h6 class="text-uppercase fw-bold mb-4">
-                            Productos
+                            Prodcutos
                         </h6>
                         <p>
                             <a href="#" class="text-reset">HTML</a>
