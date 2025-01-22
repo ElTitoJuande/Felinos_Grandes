@@ -237,6 +237,10 @@ body {
     color: #f3f3f3;
 }
 
+.equipoImg {
+    max-height: 50vh;
+}
+
 .accordion-button {
     background-color: #995e15;
     color: white;
